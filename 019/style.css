@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+Em HTML é id     = em CSS é # (Só pode um elemento)
+
+Em HTML é classe = em CSS é .(Pode vários elementos)
+
+A teg span serve para selecionar uma parte do teste e adicionar uma class ou id
+
+Tambem podemos colocar mais de uma class por seletor
+*/
+body{
+    background-color: #d6fde9;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color:white
+}
+h2{
+    color: #3c805e;
+}
+.basico{
+    color: #3c805e; 
+
+}
+.intermediario{
+    color: #80793c;
+}
+.avancado{
+    color: #803c3c;
+}

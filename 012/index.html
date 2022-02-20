@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia de video</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <h2>Este video está hospedado no meu própio servidor</h2>
+    <p>Modelo simples👇</p>
+    <video src="midia/meu-video.mp4" width="500" controls></video>
+    <p>Modelo completo👇</p>
+    <video width="500" poster="Imagens/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4"  type="video/mp4">
+        <source src="midia/meu-video.m4v"  type="video/mp4">
+        <source src="midia/meu-video.webm"  type="video/webm">
+        <source src="midia/meu-video.ogv"  type="video/ogg">
+        <p>Seu navegador não e compativel com os video <a href="midia/meu-video.mp4">clique aqui</a> para baixar</p>
+    </video>
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Incerindo video com vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/376412571?h=75c4fd98d9&autoplay=1&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
